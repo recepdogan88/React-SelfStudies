@@ -1,10 +1,8 @@
 import React from 'react'
 
-export default function MovieList({setmovies,movies}) {
+export default function MovieList({setmovies,movies,deleteMovie}) {
 
-  function deleteMovie(Pid){
-    setmovies(movies.filter(mov =>mov.id!==Pid))
-  }
+  
 
   return (
       <div className='row'>

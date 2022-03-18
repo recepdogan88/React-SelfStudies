@@ -6,7 +6,7 @@ export default function SearchBar({searchMovie}) {
 function handleFormSubmit(event){
      event.preventDefault()
   }
-  return (
+return (
     
     <form onSubmit={handleFormSubmit}> 
       <div className='form-row mb-5'>
