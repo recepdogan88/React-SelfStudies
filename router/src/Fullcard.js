@@ -12,15 +12,9 @@ export default function Fullcard({data}) {
                 <div className='fullcard'key={index}>
                    <h1>{card.title}</h1>
                    <p>{card.description}</p>
-                   <button onClick={()=>{  navigate("/");}}>BACK HOME PAGE</button>
+                   <button onClick={()=>{navigate("/");}}>BACK HOME PAGE</button>
         </div>
-            )) }
-            
-                  
-              
-         
-                
-            
+            ))}
         </div>
   </section>
   )

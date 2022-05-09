@@ -7,7 +7,7 @@ export default function MovieList({setmovies,movies,deleteMovie}) {
   return (
       <div className='row'>
       {movies.map(movie =>(
-      <div className='col-lg-4'key={movie.id}>
+      <div className='col-lg-4 m-5'key={movie.id}>
         <div className="card mb-4 shadow-sm" >
           <img src={movie.imageURL} className="card-img-top" alt="..."/>
           <div className="card-body">
