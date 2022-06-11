@@ -3,6 +3,9 @@ import {useState,useEffect} from "react"
 import MovieList from './components/MovieList';
 import SearchBar from './components/SearchBar';
 import axios from 'axios';
+
+
+
 function App() {
   const [search,setSearch]=useState("")
   const [movies,setmovies]=useState([])
